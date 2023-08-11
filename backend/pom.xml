@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>me.kavinduchamiran.postharbor</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>ParentPOM</relativePath>
+    </parent>
+
+    <artifactId>module-pom</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>All Components Build</name>
+
+    <profiles>
+        <profile>
+            <id>ParentPOM</id>
+            <activation>
+                <file>
+                    <exists>ParentPOM/pom.xml</exists>
+                </file>
+            </activation>
+            <modules>
+                <module>ParentPOM</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>Core</id>
+            <activation>
+                <file>
+                    <exists>Core/pom.xml</exists>
+                </file>
+            </activation>
+            <modules>
+                <module>Core</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>Database</id>
+            <activation>
+                <file>
+                    <exists>Database/pom.xml</exists>
+                </file>
+            </activation>
+            <modules>
+                <module>Database</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>Integrations</id>
+            <activation>
+                <file>
+                    <exists>Integrations/pom.xml</exists>
+                </file>
+            </activation>
+            <modules>
+                <module>Integrations</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>RestAPI</id>
+            <activation>
+                <file>
+                    <exists>RestAPI/pom.xml</exists>
+                </file>
+            </activation>
+            <modules>
+                <module>RestAPI</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>Security</id>
+            <activation>
+                <file>
+                    <exists>Security/pom.xml</exists>
+                </file>
+            </activation>
+            <modules>
+                <module>Security</module>
+            </modules>
+        </profile>
+    </profiles>
+</project>

@@ -1,0 +1,11 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>me.kavinduchamiran.postharbor.core</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>utilities</artifactId>
+    <packaging>jar</packaging>
+    <name>Core - Utilities</name>
+</project>

@@ -1,0 +1,11 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>me.kavinduchamiran.postharbor.security</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>cryptography</artifactId>
+    <packaging>jar</packaging>
+    <name>Security - Cryptography</name>
+</project>
