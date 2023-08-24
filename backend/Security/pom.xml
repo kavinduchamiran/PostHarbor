@@ -16,7 +16,7 @@
     <name>Security Parent POM</name>
 
     <modules>
-        <module>Authentication</module>
+        <module>Configuration</module>
         <module>Authorization</module>
         <module>Cryptography</module>
     </modules>

@@ -17,6 +17,6 @@
 
     <modules>
         <module>Entity</module>
-        <module>JDBC</module>
+        <module>Persistence-API</module>
     </modules>
 </project>
