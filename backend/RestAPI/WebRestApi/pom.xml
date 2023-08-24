@@ -70,5 +70,10 @@
       <version>1.0-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>me.kavinduchamiran.postharbor.security</groupId>
+      <artifactId>configuration</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 </project>

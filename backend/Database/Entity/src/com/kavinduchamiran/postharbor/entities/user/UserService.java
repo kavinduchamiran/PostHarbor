@@ -1,5 +1,6 @@
 package com.kavinduchamiran.postharbor.entities.user;
 
+import com.kavinduchamiran.postharbor.persistence.service.IPersistenceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

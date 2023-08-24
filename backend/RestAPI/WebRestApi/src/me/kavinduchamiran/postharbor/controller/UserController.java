@@ -10,11 +10,11 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
-public class TestController {
+public class UserController {
     private final UserService userService;
 
     @Autowired
-    public TestController(UserService userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 
@@ -23,9 +23,9 @@ public class TestController {
         return userService.findAll();
     }
 
-    @GetMapping("/{id}")
-    public Optional<User> getUserById(@PathVariable String id) {
-        return userService.findById(id);
+    @GetMapping("/{userId}")
+    public Optional<User> getUserById(@PathVariable String userId) {
+        return userService.findById(userId);
     }
 
     @PostMapping

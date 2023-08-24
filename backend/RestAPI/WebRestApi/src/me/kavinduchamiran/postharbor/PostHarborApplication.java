@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EntityScan("com.kavinduchamiran.postharbor.entities")
-@ComponentScan({"com.kavinduchamiran.postharbor.entities", "me.kavinduchamiran.postharbor.controller"})
+@ComponentScan({"com.kavinduchamiran.postharbor.entities", "me.kavinduchamiran.postharbor.controller", "me.kavinduchamiran.postharbor.configuration"})
 @EnableJpaRepositories("com.kavinduchamiran.postharbor.entities")
 public class PostHarborApplication {
 	public static void main(String[] args) {

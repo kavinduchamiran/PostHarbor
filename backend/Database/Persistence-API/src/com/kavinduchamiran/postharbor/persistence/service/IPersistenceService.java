@@ -1,4 +1,4 @@
-package com.kavinduchamiran.postharbor.entities.user;
+package com.kavinduchamiran.postharbor.persistence.service;
 
 import java.util.List;
 import java.util.Optional;
