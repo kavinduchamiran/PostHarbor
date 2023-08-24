@@ -5,7 +5,7 @@
         <artifactId>parent-pom</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>jdbc</artifactId>
+    <artifactId>persistence-api</artifactId>
     <packaging>jar</packaging>
-    <name>Database - JDBC</name>
+    <name>Database - Persistence API</name>
 </project>
