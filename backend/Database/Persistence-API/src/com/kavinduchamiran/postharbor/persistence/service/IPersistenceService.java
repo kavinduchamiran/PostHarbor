@@ -7,9 +7,9 @@ public interface IPersistenceService<T> {
 
     List<T> findAll();
 
-    Optional<T> findById(String id);
+    Optional<T> findById(Long id);
 
     T save(T user);
 
-    void deleteById(String id);
+    void deleteById(Long id);
 }

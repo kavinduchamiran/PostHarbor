@@ -20,5 +20,6 @@
         <module>Logging</module>
         <module>Queue</module>
         <module>Utilities</module>
+        <module>Deployers</module>
     </modules>
 </project>
